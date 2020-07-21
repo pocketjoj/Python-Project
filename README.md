@@ -33,7 +33,7 @@ I want to use these goals to examine Medicare claims data across all surgical pr
     + matplotlib
     + requests
     + numpy (although I believe this may be included in pandas/matplotlib).
-    
+
 - Finally, you will need to pull down my repository into a folder that your current environment has access to. If you have installed these dependencies, then you should be able to open the project in Jupyter Notebooks and run it without issue.
 
 Thanks for taking the time to check this out!
