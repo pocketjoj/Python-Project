@@ -37,21 +37,15 @@ I want to use these goals to examine Medicare claims data across all surgical pr
 
 - Finally, you will need to pull down my repository into a folder that your current environment has access to. If you have installed these dependencies, then you should be able to open the project in Jupyter Notebooks and run it without issue.
 
-### Running the Project Using Mini Conda
+### Running the Project Using Pip
 
-Note: If you wish to use pip, the dependencies are included below, but installation instructions are only included for mini conda (to avoid having to download the rather large Anaconda Navigator).
-
-- You can download mini conda from here - https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/download.html. Just choose your OS, and follow the installation prompts (more options for customizing your installation are on the above site as well).
-- Once conda is installed, you may want to create and activate a new environment to run this project using the following commands:
-    +"conda create -n name_of_my_env python" - This will create a minimal environment with only Python installed in it. 
-    + To put your self inside this environment run: "source activate name_of_my_env" On Windows the command is:"activate name_of_my_env"
-- You can install Jupyter Notebook using the command "conda install notebook". The pip command is "pip install notebook".
-- You will want to install all dependencies; you can do so using the "conda install" command, followed by the name below:
-    + pandas (Note: pandas documentation also recommends installing "setuptools", "python-dateutil" and "pytz" for best performance).
-    + matplotlib
-    + requests
-    + numpy
-- To verify your packages, you can use the "conda list" command to pull up a list of all packages. Once all libraries above are installed, you can clone my repository to a folder accessible by your python environment and run Jupyter Notebook ("jupyter notebook"), and use the Jupyter Notebook interface to access my repository, opening the "CMS Data" notebook.
+- You can download python to get started using this link: https://www.python.org/downloads/. You will need Python 3.7 or above installed to run.
+- Once Python is installed, you'll want to download my repository and run the terminal. After navigating to the folder that the repository was downloaded to, you will start by installing Jupyter Notebook with the `pip install notebook` command. 
+- From there, you'll also need to run the following commands to download the necessary libraries:
+    + `pip install pandas`
+    + `pip install matplotlib`
+    + `pip install requests`
+- Finally, you can run Jupyter Notebook by running `jupyter notebook`. You'll want to use the Jupyter Notebook UI to access the CMS_Data file. Then, on the Notebook itself, you can click `Cell > Run All` to run all cells and display the project information.
 
 Thanks for taking a look at my project!
 
