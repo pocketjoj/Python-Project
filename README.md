@@ -40,11 +40,12 @@ I want to use these goals to examine Medicare claims data across all surgical pr
 ### Running the Project Using Pip
 
 - You can download python to get started using this link: https://www.python.org/downloads/. You will need Python 3.7 or above installed to run.
-- Once Python is installed, you'll want to download my repository and run the terminal. After navigating to the folder that the repository was downloaded to, you will start by installing Jupyter Notebook with the `pip install notebook` command. 
+- Once Python is installed, you'll want to download my repository, extract as necessary (if downloading a zip file) and run the command line/terminal. After navigating to the folder that the repository was downloaded to within the terminal, you will start by installing Jupyter Notebook with the `pip install notebook` command. 
 - From there, you'll also need to run the following commands to download the necessary libraries:
     + `pip install pandas`
     + `pip install matplotlib`
     + `pip install requests`
+    + `pip install numpy` (you can ignore this if NumPy is installed with pandas).
 - Finally, you can run Jupyter Notebook by running `jupyter notebook`. You'll want to use the Jupyter Notebook UI to access the CMS_Data file. Then, on the Notebook itself, you can click `Cell > Run All` to run all cells and display the project information.
 
 Thanks for taking a look at my project!
