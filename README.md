@@ -10,7 +10,9 @@ API Documentation, 2015: https://dev.socrata.com/foundry/data.cms.gov/uqfq-w9cg
 API Documentation, 2016: https://dev.socrata.com/foundry/data.cms.gov/jtra-d83c
 API Documentation, 2017: https://dev.socrata.com/foundry/data.cms.gov/2zuc-y5mm
 
-My goals for this project are outlined below:
+Note: As of this commit, my repository has 29 total commits.
+
+My goals met in this project are outlined below:
 
 * Create and call at least 3 functions, at least one of which must return a value that is used
 
